@@ -1,9 +1,9 @@
 # R-Shiny-Project
-Portfolio Optimization Demo
+Real Time Portfolio Optimization Demo
 
 Using Shiny in R to create a website
 
-Performing portfolio optimization (demo) for investors
+Performing portfolio optimization (demo) for investors using real time data from yahoo
 
 Shiny should contain sever.R and ui.R which is the user interface.
 
