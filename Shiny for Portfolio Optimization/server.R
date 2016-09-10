@@ -316,7 +316,8 @@ shinyServer( function(input, output, session) {
     
     for(i in 1:input$nInputs)
     {
-      stock[i] <- input[[paste("tInput",i)]]
+      # All capital letter for tickers
+      stock[i] <- toupper(input[[paste("tInput",i)]])
     }
     stock
   })
