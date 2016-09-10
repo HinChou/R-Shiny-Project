@@ -2,6 +2,10 @@ library(shiny)
 
 
 shinyUI(fluidPage(
+
+  # Track all the page view and button clicking
+  tags$head(includeScript("google_analytics.js")),
+  
   titlePanel("Portfolio Optimization"),
   
     sidebarLayout(
