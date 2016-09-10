@@ -2,8 +2,6 @@ library(quantmod)
 library(quadprog)
 #source("helpers.R")
 
-
-
 #switch(input$stock_num,
        
        #"2" = lapply(1:2, function(i)
