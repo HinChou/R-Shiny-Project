@@ -33,7 +33,11 @@ shinyServer( function(input, output, session) {
       lapply(1:input$nInputs, function(i)
       {
         fluidRow(
-          column(width = 10,offset = 1, wellPanel(h4(paste("No.", i,"Input Values")),textInput(paste("tInput",i), "Ticker",""),numericInput(paste("min",i),"Min",value=NA),numericInput(paste("max",i),"Max",value=NA),numericInput(paste("expect",i),"Expected Return",value=NA))))
+          column(width = 10,offset = 1, wellPanel(h4(paste("No.", i,"Input Values")),
+          textInput(paste("tInput",i), "Ticker",""),
+          numericInput(paste("min",i),"Min",value=NA),
+          numericInput(paste("max",i),"Max",value=NA),
+          numericInput(paste("expect",i),"Expected Return",value=NA))))
       #tnam <- paste("tInput",i)
       #column(width = 3,numericInput(paste("min",i),"Min",value=NA))
       #tags$style(type="text/css", "#tnam { width: 150px; }")
