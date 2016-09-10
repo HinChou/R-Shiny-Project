@@ -23,8 +23,9 @@ shinyUI(fluidPage(
     
       dateRangeInput("dates", 
                    "Date range",
-                   start = "2015-01-30", 
-                   end = "2015-03-29"),
+                   # Default data from past three months
+                   start = Sys.Date() - 90, 
+                   end = Sys.Date()),
     
     actionButton("goButton","Generate"),
     
