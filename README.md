@@ -18,7 +18,7 @@ https://xuanzhou.shinyapps.io/Portfolio-Optimization-Demo/
 
 
 ### Pending:
-* Mistake input value issues
+* Wrong input value issues
 * Tickers missing issues: webpage using tickers from yahoo, probably other website use different tickers
 * Missing labels for graphs in each tabPanel
 
