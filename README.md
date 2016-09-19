@@ -13,7 +13,7 @@ https://xuanzhou.shinyapps.io/Portfolio-Optimization-Demo/
 * Shiny should contain sever.R and ui.R which is the user interface.
 
 ### New Adds:
-* Optimize the ui
+* Optimize the user interface
 * Add google analytics for tracking all the page view and button clicking
 
 
