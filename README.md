@@ -14,7 +14,7 @@ https://xuanzhou.shinyapps.io/Portfolio-Optimization-Demo/
 
 ### New Adds:
 * Optimize the user interface
-* Add google analytics for tracking all the page view and button clicking
+* Add google analytics for tracking all the page views and button clicking
 
 
 ### Pending:
