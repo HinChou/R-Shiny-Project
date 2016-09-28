@@ -12,8 +12,7 @@ shinyUI(fluidPage(
       sidebarPanel(
       
       br(),
-      #selectInput("stock_num","Stock",c("2","3","4")),
-      
+
       numericInput("nInputs", "Number of Assets:", 5, 1),
       
       numericInput("tau", "Risk Tolerance:", 1, 1),
