@@ -1,28 +1,8 @@
 library(quantmod)
 library(quadprog)
-#source("helpers.R")
-
-#switch(input$stock_num,
-       
-       #"2" = lapply(1:2, function(i)
-       #{
-         #textInput(as.character(i), "Symbol", "AAPL")
-       #}),
-       #"3" = lapply(1:3, function(i)
-       #{
-         #textInput("i", "Symbol", "AAPL")
-       #}),
-       #"4" = lapply(1:4, function(i)
-       #{
-         #textInput("i", "Symbol", "AAPL")
-       #}),
-#)
 
 
 shinyServer( function(input, output, session) {
-  
-  
-  #values <- reactiveValues(shouldShow = FALSE)
   
   nStock <- reactive({
     
@@ -38,10 +18,7 @@ shinyServer( function(input, output, session) {
           numericInput(paste("min",i),"Min",value=NA),
           numericInput(paste("max",i),"Max",value=NA),
           numericInput(paste("expect",i),"Expected Return",value=NA))))
-      #tnam <- paste("tInput",i)
-      #column(width = 3,numericInput(paste("min",i),"Min",value=NA))
-      #tags$style(type="text/css", "#tnam { width: 150px; }")
-      
+             
       })
     )
       
@@ -149,8 +126,6 @@ shinyServer( function(input, output, session) {
     }
     
     
-
-    #A <- matrix(1,1,input$nInputs)
     notional <- isolate(input$budget)
     
     #last day price
@@ -266,7 +241,6 @@ shinyServer( function(input, output, session) {
       }
     }
     
-    #A <- matrix(1,1,input$nInputs)
     notional <- isolate(input$budget)
     
     #last day price
@@ -393,7 +367,6 @@ shinyServer( function(input, output, session) {
     
     
     
-    #A <- matrix(1,1,input$nInputs)
     notional <- input$budget
     
     #last day price
@@ -503,9 +476,7 @@ shinyServer( function(input, output, session) {
       }
     }
     
-    
-    
-    #A <- matrix(1,1,input$nInputs)
+
     notional <- input$budget
     
     #last day price
