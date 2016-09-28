@@ -4,6 +4,7 @@ library(quadprog)
 
 shinyServer( function(input, output, session) {
   
+  # create a reactive item
   nStock <- reactive({
     
     if(input$goButton)
