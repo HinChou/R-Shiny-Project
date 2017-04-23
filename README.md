@@ -1,6 +1,6 @@
 # R-Shiny-Project
 Real-Time Portfolio Optimization Demo
-#### Initial Author: Li Zou, Xuan Zhou, Yihuan Wang.
+#### Initial Authors: Li Zou, Xuan Zhou, Yihuan Wang.
 
 #### Maintainer: Xuan Zhou
 
