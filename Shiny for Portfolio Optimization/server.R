@@ -30,7 +30,6 @@ shinyServer( function(input, output, session) {
   
   output$stock <- renderUI({
     
-    
     if(input$nInputs < 2)
     {
       output$number <- renderText({"Please Input the Number of Assets Greater Than 2!"})
@@ -48,10 +47,10 @@ shinyServer( function(input, output, session) {
     }
     output$number <- renderText({"Please Click Generate Button to Start!"})
     
-      nStock()
-    
+      nStock()  
     
   })
+  
   output$PlotButton <- renderUI({
     
     if(input$goButton)
@@ -132,7 +131,6 @@ shinyServer( function(input, output, session) {
     #last day price
     price <- stock.p[(length(stock.p[,1])),2:length(stock.p[1,])]
     
-    
     #return
     for (j in 1:input$nInputs)
       for (i in 1:length(stock.r[,1]))
@@ -174,7 +172,6 @@ shinyServer( function(input, output, session) {
     volume <- as.numeric(t(volume)) 
     
     volume
-    
     
   })
   
