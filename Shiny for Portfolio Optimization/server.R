@@ -21,8 +21,7 @@ shinyServer( function(input, output, session) {
           numericInput(paste("expect",i),"Expected Return",value=NA))))
              
       })
-    )
-      
+    )    
     }
     
   })
