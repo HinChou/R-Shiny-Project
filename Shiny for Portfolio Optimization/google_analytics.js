@@ -6,7 +6,6 @@
   ga('create', 'UA-83948051-2', 'auto');
   ga('send', 'pageview');
 
-$(document).on('click', 'button', function() 
-{
+$(document).on('click', 'button', function(){
     ga('send', 'event', 'button', 'all click');
   });
