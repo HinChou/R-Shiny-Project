@@ -1,6 +1,6 @@
 # R-Shiny-Project
 Real-Time Portfolio Optimization Demo
-#### Initial Authors: Li Zou, Xuan Zhou, Yihuan Wang.
+#### Initial Authors: Li Zou, Xuan Zhou, Yihuan Wang
 
 #### Maintainer: Xuan Zhou
 
@@ -10,7 +10,7 @@ https://xuanzhou.shinyapps.io/Portfolio-Optimization-Demo/
 ## Summary:
 * Using Shiny in R to create a website(demo)
 * Performing portfolio optimization for investors using real-time data from yahoo
-* Shiny should contain sever.R and ui.R which is the user interface.
+* Shiny should contain sever.R and ui.R which is the user interface
 
 ### New Adds:
 * Optimize the user interface
