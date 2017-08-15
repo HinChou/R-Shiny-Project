@@ -10,7 +10,7 @@ https://xuanzhou.shinyapps.io/Portfolio-Optimization-Demo/
 ## Summary:
 * Using Shiny in R to create a website(demo)
 * Performing portfolio optimization for investors using real-time data from yahoo
-* Shiny should contain sever.R and ui.R which is the user interface
+* Shiny should contain sever.R and ui.R which is the user interface(Looks like Shiny updates its framework, now sever.R and ui.R can be written in the same file, but written separately is still available, and to me it is the better way to do it)
 
 ### New Adds:
 * Optimize the user interface
